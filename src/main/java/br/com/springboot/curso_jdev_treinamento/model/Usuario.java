@@ -64,5 +64,11 @@ public class Usuario implements Serializable {
 		return Objects.equals(id, other.id);
 	}
 
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + ", idade=" + idade + "]";
+	}
+
+	
 	
 }
